@@ -32,6 +32,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
@@ -47,6 +48,7 @@
   border-radius: 20px;
   background: #fff;
 }
+
 .avatar {
   margin: 20px;
   border-radius: 50%;
@@ -79,7 +81,9 @@
 
 /* Consuming API's CSS */
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
@@ -116,20 +120,23 @@ form h2 {
 }
 
 .input-container {
-  display: flex;   
+  display: flex;
   margin-bottom: 1em;
 }
 
-label, input, textarea {
+input,
+textarea {
   display: block;
   border-radius: 5px;
   width: 100%;
   font-size: 16px;
+  border: 1px solid #282c34;
 }
 
 label {
   margin-right: 1em;
   font-weight: bold;
+  text-align: start;
 }
 
 textarea {
@@ -145,11 +152,15 @@ textarea {
   padding: 0.5em 1em;
   cursor: pointer;
   transition: all, 0.5s;
+  border: 1px solid #282c34;
 }
 
-.btn-submit:hover, .btn-submit:focus {
+.btn-submit:hover,
+.btn-submit:focus {
   transform: scale(1.1);
-   transition: all, 0.5s;
+  transition: all, 0.5s;
+  background-color: #024a73;
+  color: azure;
 }
 
 /* Posts */
@@ -179,7 +190,7 @@ textarea {
 }
 
 .post-body {
-  margin-bottom: 50px; 
+  margin-bottom: 50px;
 }
 
 .btn-delete {
@@ -194,10 +205,13 @@ textarea {
   padding: 0.5em 1em;
   cursor: pointer;
   transition: all, 0.5s;
+  border: 1px solid #282c34;
 }
 
-.btn-delete:hover, .btn-delete:focus {
+.btn-delete:hover,
+.btn-delete:focus {
   transform: scale(1.1);
-   transition: all, 0.5s;
+  transition: all, 0.5s;
+  background-color: #024a73;
+  color: azure;
 }
-

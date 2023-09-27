@@ -7,14 +7,14 @@ const FetchAPIFunction = () => {
     const fetchUserData = () => {
 
         fetch("https://jsonplaceholder.typicode.com/users")
-        .then(response => {
+        .then(response => {      
             return response.json()
         })
         .then(data => {
             setUserData(data)
         })
     }
-
+    
     useEffect (() => {
         fetchUserData()
     },[])

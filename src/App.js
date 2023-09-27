@@ -30,27 +30,29 @@ import './App.css';
 // import HoverApp, { Contactmanger, Messenger, Scoreboard } from './components/PreserveAndResetState';
 // import HeadingPage, { ProfilePage } from './components/Context';
 // import ReducerTaskApp from './components/Reducers';
-import RefCounter, { RefForm1, StopWatch, TodoList } from './components/Refs';
+// import RefCounter, { RefForm1, StopWatch, TodoList } from './components/Refs';
 // import Form from './components/Form';
 // import ValidationForm from './components/ValidationForm';
-import FormUsingCompoents from './components/ComponentForm';
-import MappingForm from './components/MappingForm';
-import { EffectApp } from './components/useEffect';
+// import FormUsingCompoents from './components/ComponentForm';
+// import MappingForm from './components/MappingForm';
+// import { EffectApp } from './components/useEffect';
 import FetchAPIFunction from './components/fetchAPI';
+import RestApp from './components/ConsumingRestApis';
 
 function App() {
   return (
     <div className="App">
       {/* <Form/> */}
       {/* <ValidationForm/> */}
-      <FormUsingCompoents/>
-      <MappingForm/>
-      <RefCounter/>
-      <StopWatch/>
-      <RefForm1/>
-      <TodoList />
-      <EffectApp />
+      {/* <FormUsingCompoents/> */}
+      {/* <MappingForm/> */}
+      {/* <RefCounter/> */}
+      {/* <StopWatch/> */}
+      {/* <RefForm1/> */}
+      {/* <TodoList /> */}
+      {/* <EffectApp /> */}
       <FetchAPIFunction/>
+      <RestApp/>
       {/* <Something/>
       <TodoList/> */}
       {/* <Profile/> */}
